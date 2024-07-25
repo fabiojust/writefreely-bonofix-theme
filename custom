@@ -1,0 +1,134 @@
+body {
+		 color: #eee;
+		 background: #111;
+	}
+	
+body .post-title a:link, a:visited {
+		 color: #ccc;
+	}
+	
+#collection .post-title a {
+               color: #ccc;
+               /*! background-color: blue; */
+}
+	
+#collection {
+		 color: #eee;
+	}
+	
+#collection pre {
+		 background: #060606;
+	}
+
+body h1 a, body header h2 a {
+		 color: #cfcfcf;
+	}
+	
+body h1 a:hover, body header h2 a:hover {
+		 color: #fff;
+	}
+	
+body h1 a:visited, body header h2 a:visited {
+		 color: #ccc;
+	}
+	
+body #manage ul a, body .dropdown-nav ul a, body #manage ul ul a, body #manage ul a {
+		 color: #ccc;
+	}
+	 
+body .dropdown-nav ul ul, body .dropdown-nav ul li:hover, body #manage ul ul, body #manage ul ul li:hover, body #manage ul li:hover {
+		 background: #222;
+	}
+
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+		 color: #ddd;
+	}
+	
+	
+body #official-writing h2, body #official-writing h3, body #official-writing h4, body #wrapper h2, body #wrapper h3, body #wrapper h4 {
+		 color: #aaa;
+	}
+	
+body #official-writing ul.collections li.collection a.title:link, body #official-writing ul.collections li.collection a.title:visited, body #wrapper ul.collections li.collection a.title:link, body #wrapper ul.collections li.collection a.title:visited {
+		 color: #cfcfcf;
+	}
+	 
+body #official-writing ul.collections li a.create, body #wrapper ul.collections li a.create {
+		 color: #aaa;
+	}
+	 
+body#me #official-writing h2 a:link, body#me #official-writing h2 a:visited {
+		 color: #a2a2ff;
+	}
+	 
+
+input {
+		 background: #202020;
+		 color: #bbb;
+	}
+	
+#manage ul ul li img {
+		 filter: invert(1);
+	}
+	
+#post code, #collection code, #subpage code {
+                 background: #202020;
+		 color: #bbb;
+    }
+
+
+/** CUSTOM **/
+
+
+html, body {
+  background-color: #313238;
+}
+
+
+h1, h2 {
+font-weight: normal;
+}
+
+body#collection blockquote, body#post blockquote, body#subpage blockquote {
+	color: white;
+  font-size: 0.9em; 
+	text-align: justify;
+	border-color: #6cbcfa;
+}
+
+#collection .post-title a {
+  font-size: 0.5em;
+	background-color: #2f82c6;
+	border-radius: 10px;
+	padding: 1px 6px 1px 6px;
+
+}
+
+.mention {
+  color: #6cbcfa;
+  font-size: 0.7em;
+  text-align: right; 
+  display: block;
+}
+
+
+body, #blog-title a, header p.description, h2, .mention {
+font-family: IBM Plex Sans, 'Open Sans', sans-serif;
+} 
+
+header nav a, a {
+color: #8da9c2;
+}
+
+#blog-title a {
+ color: #6cbcfa;
+ font-weight: 900;
+  font-size: 1.5em;
+   }
+
+header p.description {
+  color: white;
+}
+
+.pinned, a {color: #6cbcfa;}
+
